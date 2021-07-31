@@ -1,0 +1,6 @@
+Json.Document(Web.Contents("http://api.bosonnlp.com/keywords/analysis",[
+         Headers = [#"X-Token"="YzruI3xO.31315.jLiWFD_GBnRb",
+                    #"Content-Type"="application/json"],
+             Content = Text.ToBinary("["""&[ÆÀ¼Û]&"""]")
+            ]
+        ))
